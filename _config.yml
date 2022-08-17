@@ -8,8 +8,9 @@ subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: en
+language: zh-cn
 timezone: ''
+theme: icarus
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
