@@ -1,0 +1,39 @@
+<script setup lang="ts">
+
+const props = defineProps({
+  title: String,
+  time: String,
+  file: String,
+  introduce: String,
+  pid: Number,
+});
+
+let introduce = props.introduce;
+const ele = document.createElement("span");
+ele.innerHTML = introduce!;
+introduce = ele.innerText;
+
+</script>
+
+<template>
+  <router-link :to="`/posts/${props.pid}`" class="item">
+    <div>
+      <span style="font-size: 30px">{{ title }}</span>
+      &nbsp;&nbsp;&nbsp;
+      <i class="fa fa-calendar"></i>&nbsp;
+      <span>{{ time }}</span>
+      <br />
+      <span>{{ introduce }}</span>
+    </div>
+  </router-link>
+</template>
+
+<style scoped>
+.item {
+  text-decoration: none;
+  color: black;
+}
+.item:hover {
+  color: skyblue;
+}
+</style>
