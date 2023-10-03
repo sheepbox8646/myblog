@@ -22,10 +22,6 @@ const config = {
       text: "<i class='fa fa-twitter'></i>",
       link: "https://twitter.com/AcboxSky"
     },
-    {
-      text: "<i class='fa fa-twitter'></i>",
-      link: "https://twitter.com/AcboxSky"
-    },
   ]
 };
 
