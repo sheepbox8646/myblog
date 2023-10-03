@@ -14,7 +14,7 @@ const configs = ref(config);
     <br /><br /><br />
     <hr />
     &nbsp;&nbsp;<span v-for="g in configs.guider" class="guider">
-      <router-link :to="g.link" class="item">{{ g.text }}</router-link>
+      <a :href="g.link" class="item" v-html="g.text"></a>
       &nbsp;&nbsp;</span>
     <hr />
   </div>

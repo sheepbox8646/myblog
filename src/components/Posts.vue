@@ -6,6 +6,8 @@ import PostItem from './PostItem.vue';
 
 const posts = ref(post);
 
+posts.value.reverse();
+
 document.title = "AcboxSky---Posts"
 
 </script>
