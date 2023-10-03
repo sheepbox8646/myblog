@@ -9,12 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.5",
+    "@giscus/vue": "^2.3.0",
     "font-awesome": "^4.7.0",
-    "markdown-it-highlightjs": "^4.0.1",
-    "markdown-it-texmath": "^1.0.0",
-    "katex": "^0.16.9"
+    "marked": "^9.0.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

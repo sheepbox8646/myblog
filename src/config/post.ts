@@ -3,8 +3,13 @@ const post = [
     title: "Hello",
     time: "2023.10.3",
     tag: ["blogs"],
-    file: "",
+    file: "first.md",
     introduce: "The first blog on this website",
+  },
+  {
+    title: "Introduce",
+    time: "2023.10.3",
+    file: "MyIntroduce.md"
   }
 ];
 

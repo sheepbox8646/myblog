@@ -9,7 +9,7 @@ const configs = ref(config);
   <div class="head">
     <h1>{{ configs.title }}</h1>
     <span v-for="sign in configs.signs">
-      {{ sign }},
+      <span class="sign">{{ sign }},</span>
     </span>
     <br /><br /><br />
     <hr />
