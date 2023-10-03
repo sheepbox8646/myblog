@@ -5,6 +5,7 @@ const post = [
     tag: ["blogs"],
     file: "first.md",
     introduce: "The first blog on this website",
+    hide: true
   },
   {
     title: "Introduce",

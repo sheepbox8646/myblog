@@ -14,8 +14,14 @@ document.title = "AcboxSky---Posts"
 
 <template>
   <div v-for="(post, index) in posts">
-    <PostItem :title="post.title" :time="post.time" :file="post.file" :introduce="post.introduce" :pid="index"/>
-    <hr />
+    <PostItem 
+      :title="post.title" 
+      :time="post.time" 
+      :file="post.file" 
+      :introduce="post.introduce" 
+      :pid="index" 
+      :hide="post.hide"
+    />
   </div>
 </template>
 

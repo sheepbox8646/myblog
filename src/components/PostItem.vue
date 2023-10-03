@@ -6,6 +6,7 @@ const props = defineProps({
   file: String,
   introduce: String,
   pid: Number,
+  hide: Boolean,
 });
 
 let introduce = props.introduce;
@@ -16,16 +17,19 @@ introduce = ele.innerText;
 </script>
 
 <template>
-  <router-link :to="`/posts/${props.pid}`" class="item">
-    <div>
-      <span style="font-size: 30px">{{ title }}</span>
-      &nbsp;&nbsp;&nbsp;
-      <i class="fa fa-calendar"></i>&nbsp;
-      <span>{{ time }}</span>
-      <br />
-      <span>{{ introduce }}</span>
-    </div>
-  </router-link>
+  <div v-if="!hide">
+    <router-link :to="`/posts/${props.pid}`" class="item">
+      <div>
+        <span style="font-size: 30px">{{ title }}</span>
+        &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-calendar"></i>&nbsp;
+        <span>{{ time }}</span>
+        <br />
+        <span>{{ introduce }}</span>
+      </div>
+    </router-link>
+    <hr />
+  </div>
 </template>
 
 <style scoped>
@@ -33,6 +37,7 @@ introduce = ele.innerText;
   text-decoration: none;
   color: black;
 }
+
 .item:hover {
   color: skyblue;
 }
