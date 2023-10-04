@@ -31,7 +31,7 @@ image.src = url;
 ## 绘制到canvas上
 ```javascript
 image.onload = () => {
-  ctx.drawImage(image);
+  ctx.drawImage(image, 0, 0);
   window.DOM.revokeObjectURL(url);
 }
 ```
