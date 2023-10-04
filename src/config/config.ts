@@ -4,7 +4,7 @@ const config = {
   guider: [
     {
       text: "文章",
-      link: "/"
+      link: "/posts"
     },
     {
       text: "链接",

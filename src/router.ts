@@ -10,6 +10,10 @@ const router = createRouter({
       component: Posts,
     },
     {
+      path: "/posts",
+      component: Posts,
+    },
+    {
       path: "/posts/:pid",
       component: PostPage
     }
