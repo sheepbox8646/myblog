@@ -16,4 +16,19 @@ import Footer from './components/Footer.vue';
   margin-left: 30%;
   margin-right: 30%;
 }
+
+@media screen and (max-width:900px) {
+  .content {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 0px;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .content {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 </style>
