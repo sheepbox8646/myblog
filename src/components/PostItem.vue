@@ -5,7 +5,7 @@ const props = defineProps({
   time: String,
   file: String,
   introduce: String,
-  pid: Number,
+  pid: String,
   hide: Boolean,
 });
 

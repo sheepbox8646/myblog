@@ -6,9 +6,16 @@ import Giscus from '@giscus/vue'
 import { marked } from "marked"
 
 const route = useRoute();
-const postData = reactive((post[Number(route.params.pid)]));
 
-document.title = postData.title
+let postData: any;
+
+post.forEach((p) => {
+  if (p.pid === route.params.pid)  {
+    postData = reactive(p);
+  }
+})
+
+document.title = postData!.title
 
 let html_content = ref("");
 
@@ -18,7 +25,6 @@ let html_content = ref("");
     .then((text) => { html_content.value = marked.parse(text) })
   // html_content = ref(marked.parse(markdown.value));
 })()
-console.log();
 </script>
 
 <template>

@@ -2,16 +2,12 @@ const post = [
   {
     title: "Hello",
     time: "2023.10.3",
-    tag: ["blogs"],
-    file: "first.md",
+    tags: ["blogs"],
+    file: "self-introduce.md",
     introduce: "The first blog on this website",
-    hide: true
+    hide: true,
+    pid: "self-introduce"
   },
-  {
-    title: "Introduce",
-    time: "2023.10.3",
-    file: "MyIntroduce.md"
-  }
 ];
 
 export default post;

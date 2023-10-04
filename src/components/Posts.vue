@@ -13,14 +13,14 @@ document.title = "AcboxSky---Posts"
 </script>
 
 <template>
-  <div v-for="(post, index) in posts">
+  <div v-for="post in posts">
     <PostItem 
       :title="post.title" 
       :time="post.time" 
       :file="post.file" 
       :introduce="post.introduce" 
-      :pid="index" 
-      :hide="post.hide"
+      :pid="post.pid" 
+      :hide="post.hide ?? false"
     />
   </div>
 </template>
