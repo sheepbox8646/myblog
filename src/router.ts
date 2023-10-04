@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Posts from "./components/Posts.vue";
 import PostPage from "./components/PostPage.vue"
+import AnnouncementPage from "./components/AnnouncementPage.vue"
 
 const router = createRouter({
   history: createWebHistory(),
@@ -16,7 +17,11 @@ const router = createRouter({
     {
       path: "/posts/:pid",
       component: PostPage
-    }
+    },
+    {
+      path: "/announcement",
+      component: AnnouncementPage,
+    },
   ] 
 });
 

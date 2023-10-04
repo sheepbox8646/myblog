@@ -8,11 +8,15 @@ const config = {
     },
     {
       text: "链接",
-      link: "/friends"
+      link: "/posts/link"
     },
     {
       text: "关于我",
       link: "/posts/self-introduce"
+    },
+    {
+      text: "公告板",
+      link: "/announcement"
     },
     {
       text: "<i class='fa fa-github'></i>",

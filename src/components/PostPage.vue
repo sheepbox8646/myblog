@@ -25,6 +25,7 @@ let html_content = ref("");
     .then((text) => { html_content.value = marked.parse(text) })
   // html_content = ref(marked.parse(markdown.value));
 })()
+
 </script>
 
 <template>
