@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import announcement from "../config/announcement";
 import { ref } from "vue";
 import Giscus from '@giscus/vue';
