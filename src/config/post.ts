@@ -5,6 +5,7 @@ const post = [
     file: "self-introduce.md",
     hide: true,
     pid: "self-introduce",
+    introduce: ""
   },
   {
     title: "链接",
