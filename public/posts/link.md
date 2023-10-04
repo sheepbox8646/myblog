@@ -4,4 +4,8 @@
 - [英语兔](https://space.bilibili.com/483162496) 超级神的英语老师！曾经把我从一个英语不及格的人变成一个英语学霸，特别推荐他的语法课，讲的非常透彻！
 
 ## 友情链接
-- [Samzhang]
+- [Samzhang](https://blog.samzhangjy.com/) 前端，oier大佬
+- [Starmoe](https://hexo.hydi.xyz/)
+- [Peng](https://pengs.top/)
+- [LStar](https://ltx1102.com/) 一个数学，编程，物理，化学都很厉害的女孩子
+- [曹智铭](https://czhiming.cn/) 某位神秘的大佬，女朋友是LStar.

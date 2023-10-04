@@ -14,12 +14,7 @@ const configs = ref(config);
     <br /><br /><br />
     <hr />
     &nbsp;&nbsp;<span v-for="g in configs.guider" class="guider">
-      <!-- <span v-if="!/https:\/\//.test(g.link)">
-        <router-link :to="g.link" class="item" v-html="g.text"></router-link>
-      </span>
-      <span v-else> -->
-        <a :href="g.link" v-html="g.text" class="item"></a>
-      <!-- </span> -->
+      <a :href="g.link" v-html="g.text" class="item"></a>
       &nbsp;&nbsp;</span>
     <hr />
   </div>
