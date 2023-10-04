@@ -12,7 +12,7 @@ const config = {
     },
     {
       text: "关于我",
-      link: "/about"
+      link: "/posts/self-introduce"
     },
     {
       text: "<i class='fa fa-github'></i>",
