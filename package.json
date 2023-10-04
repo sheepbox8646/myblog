@@ -11,6 +11,7 @@
   "dependencies": {
     "@giscus/vue": "^2.3.0",
     "font-awesome": "^4.7.0",
+    "highlight.js": "^11.8.0",
     "marked": "^9.0.3",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"

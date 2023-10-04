@@ -13,6 +13,13 @@ const post = [
     file: "link.md",
     hide: true,
     pid: "link",
+  },
+  {
+    title: "将HTML DOM元素绘制到Canvas上",
+    time: "2023.10.4",
+    file: "dom-in-canvas.md",
+    pid: "dom-in-canvas",
+    introduce: "本篇博客会展示以SVG为媒介的方法去将HTML DOM元素绘制到canvas上"
   }
 ];
 

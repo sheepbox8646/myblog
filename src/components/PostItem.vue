@@ -25,7 +25,7 @@ introduce = ele.innerText;
         <i class="fa fa-calendar"></i>&nbsp;
         <span>{{ time }}</span>
         <br />
-        <span>{{ introduce }}</span>
+        <span v-html="introduce"></span>
       </div>
     </router-link>
     <hr />
