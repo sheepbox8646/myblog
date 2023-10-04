@@ -13,14 +13,6 @@ const post = [
     file: "link.md",
     hide: true,
     pid: "link",
-  },
-  {
-    title: "AcboxSky的新网站正式投入使用啦",
-    time: "2023.10.4",
-    hide: true,
-    type: "announcement",
-    file: "announce1.md",
-    pid: "announce1"
   }
 ];
 
