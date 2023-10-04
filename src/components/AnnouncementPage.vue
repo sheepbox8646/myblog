@@ -24,10 +24,11 @@ announcements.value.forEach((announce) => {
 <template>
   <div v-for="(announce, index) in announcements">
     <div><i class="fa fa-calendar"></i> {{ announce.time }}</div>
-    <div v-html="html_contents[index]"></div><br/>
+    <div v-html="html_contents[index]" style="font-size: 20px"></div><br/>
     <Giscus repo="sheepbox8646/myblog" repoId="R_kgDOKbSURA" dataCategory="Announcements"
       CategoryId="DIC_kwDOKbSURM4CZ0jE" mapping="pathname" strict="0" reactionsEnabled="1" emitMetadata="0"
       inputPosition="top" theme="light" lang="zh-CN" loading="lazy" crossorigin="anonymous"
       :term="`announcements/${announce.aid}`" async />
+    <hr/>
   </div>
 </template>

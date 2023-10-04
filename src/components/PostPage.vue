@@ -33,7 +33,7 @@ let html_content = ref("");
   <br />
   <span><i class="fa fa-calendar"></i>&nbsp;{{ postData.time }}</span>
   <br /><br /><br /><br /><br /><br />
-  <div v-html="html_content" style="font-size: 25px"></div>
+  <div v-html="html_content" style="font-size: 20px"></div>
   <br /><br /><br />
   <Giscus repo="sheepbox8646/myblog" repoId="R_kgDOKbSURA"
     dataCategory="Announcements" CategoryId="DIC_kwDOKbSURM4CZ0jE" mapping="pathname" strict="0"
