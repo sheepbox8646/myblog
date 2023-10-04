@@ -1,0 +1,1 @@
+因为vercel.app及其子域名被墙原因，本站已迁至netlify，且换了一个子域名，现在你可以通过[index.acbox.lol](https://index.acbox.lol)访问本站
