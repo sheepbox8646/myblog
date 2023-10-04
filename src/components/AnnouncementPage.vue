@@ -19,6 +19,8 @@ announcements.value.forEach((announce) => {
   console.log(html_contents)
 })
 
+document.title = "公告-AcboxSky";
+
 let maxNumberDisplay = ref(6)
 
 </script>

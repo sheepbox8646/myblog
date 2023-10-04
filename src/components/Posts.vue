@@ -8,7 +8,7 @@ const posts = ref(post);
 
 posts.value.reverse();
 
-document.title = "文章"
+document.title = "文章-AcboxSky"
 
 </script>
 

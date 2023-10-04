@@ -15,7 +15,7 @@ post.forEach((p) => {
   }
 })
 
-document.title = postData!.title
+document.title = `${postData!.title}-AcboxSky`
 
 let html_content = ref("");
 
