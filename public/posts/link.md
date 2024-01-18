@@ -5,8 +5,7 @@
 - [停止重构](https://space.bilibili.com/507373006) 一个分享新技术的up主
 
 ## 我的项目
-- [newcar](https://github.com/Bug-Duck/newcar) 一个现代化，自由度高的动画引擎(目前正在准备寒假重写，因为设计缺陷太多了)
-- [fastgl](https://github.com/Bug-Duck/FastGL) 一个封装WebGL的库(目前还没有写完)
+- [newcar](https://github.com/Bug-Duck/newcar) 一个现代化，自由度高的动画引擎
 
 ## 我推的开源项目
 - [clerc](https://github.com/clercjs/clerc) 一个功能齐全的 cli 库
