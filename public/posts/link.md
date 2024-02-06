@@ -17,3 +17,4 @@
 - [Peng](https://pengs.top/)
 - [LStar](https://ltx1102.com/) 一个数学，编程，物理，化学都很厉害的女孩子
 - [曹智铭](https://czhiming.cn/) 某位神秘的大佬，女朋友是LStar.
+- [猫鱼](bugduck.netlify.app) 可可爱爱
