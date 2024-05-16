@@ -27,6 +27,13 @@ const post = [
     file: "saving-video-from-canvas-animation.md",
     pid: "saving-video-from-canvas-animation",
     introduce: "本篇博客将会跟据外网老哥的博客加以翻译改进, 陈述如何把HTML Canvas动画保存为视频"
+  },
+  {
+    title: "Maybe I just",
+    time: "2024.5.16",
+    file: "maybe-i-just.md",
+    pid: "maybe-i-just",
+    introduce: "To be my self without judgement"
   }
 ];
 
