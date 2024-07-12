@@ -34,6 +34,13 @@ const post = [
     file: "maybe-i-just.md",
     pid: "maybe-i-just",
     introduce: "To be my self without judgement"
+  },
+  {
+    title: '关于我学英语的一些“野路子”',
+    time: '2024.7.12',
+    file: 'the-other-way-of-english-learning.md',
+    pid: 'the-other-way-of-english-learning',
+    introduce: '我是如何从一个英语渣渣变成英语爱好者的？这篇博客会给你所有答案'
   }
 ];
 
