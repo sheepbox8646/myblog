@@ -11,8 +11,7 @@ const configs = ref(config);
     <span v-for="sign in configs.signs">
       <span class="sign">{{ sign }},</span>
     </span>
-    <br /><br /><br />
-    <hr />
+    <hr style="margin-top: 20px"/>
     &nbsp;&nbsp;<span v-for="g in configs.guider" class="guider">
       <a :href="g.link" v-html="g.text" class="item"></a>
       &nbsp;&nbsp;</span>

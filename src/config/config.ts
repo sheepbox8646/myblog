@@ -1,6 +1,7 @@
 const config = {
   title: "I'm AcboxSky",
-  signs: ["A CODER", "A ENGLISH LOVER","A BRONY"],
+  signs: ["💻OSS Developer", "🎸Music Lover", "🌈Dreamer", "🌍Desiring for Freedom"],
+  saying: "To be my self without judgement",
   guider: [
     {
       text: "文章",
@@ -24,8 +25,16 @@ const config = {
     },
     {
       text: "<i class='fa fa-twitter'></i>",
-      link: "https://twitter.com/AcboxSky"
+      link: "https://twitter.com/AcboxLiu"
     },
+    {
+      text: "<i class='fa fa-envelope'></i>",
+      link: "mailto:acbox0328@gmail.com"
+    },
+    {
+      text: "<i class='fa fa-wechat'></i>",
+      link: "https://mp.weixin.qq.com/s/88Xoce3LQ2IiRDvOZ3GKFw?token=1031354371&lang=zh_CN)"
+    }
   ]
 };
 

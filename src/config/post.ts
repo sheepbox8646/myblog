@@ -1,7 +1,7 @@
 const post = [
   {
     title: "关于我",
-    time: "2023.10.4(publish),2023.10.4(Edit) ",
+    time: "2023.10.4(publish),2024.11.26(Edit) ",
     file: "self-introduce.md",
     hide: true,
     pid: "self-introduce",
@@ -41,6 +41,12 @@ const post = [
     file: 'the-other-way-of-english-learning.md',
     pid: 'the-other-way-of-english-learning',
     introduce: '我是如何从一个英语渣渣变成英语爱好者的？这篇博客会给你所有答案'
+  },
+  {
+    title: '《向前的世界》',
+    time: '2024.11.26',
+    pid: 'the-forward-world',
+    introduce: '这是我的正在更新的政治类科幻小说，从一个个普通人的视角去做政治讽刺，欢迎阅读'
   }
 ];
 
