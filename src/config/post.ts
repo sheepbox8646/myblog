@@ -1,3 +1,13 @@
+export const forwardWorld = [
+  {
+    title: "Chapter1 香蜜湖站",
+    time: "2024.11.26",
+    file: "the-forward-world/content/chapter1.md",
+    pid: "tfw-c1",
+    hide: true,
+  }
+]
+
 const post = [
   {
     title: "关于我",
@@ -48,7 +58,8 @@ const post = [
     file: 'the-forward-world/summarize.md',
     pid: 'the-forward-world',
     introduce: '这是我的正在更新的政治类科幻小说，从一个个普通人的视角去做政治讽刺，欢迎阅读'
-  }
+  },
+  ...forwardWorld
 ];
 
 export default post;
