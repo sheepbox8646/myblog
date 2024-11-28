@@ -39,7 +39,9 @@
 # 目录
 
 - [前言](./content/preface.md)
-- [Chapter1-香蜜湖站](/posts/tfw-c1)
+- 第一篇故事
+  + [Chapter1-香蜜湖站](/posts/tfw-c1)
+  + [Chapter2-所以生命啊，它苦涩如歌](/posts/tfw-c2)
 
 # 更新
 

@@ -5,6 +5,13 @@ export const forwardWorld = [
     file: "the-forward-world/content/chapter1.md",
     pid: "tfw-c1",
     hide: true,
+  },
+  {
+    title: "Chapter2 所以生命啊，它苦涩如歌",
+    time: "2024.11.28",
+    file: "the-forward-world/content/chapter2.md",
+    pid: "tfw-c2",
+    hide: true,
   }
 ]
 
