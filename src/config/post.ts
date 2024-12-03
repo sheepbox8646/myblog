@@ -80,6 +80,13 @@ const post = [
     file: 'compile-vue-string.md',
     pid: 'compile-vue-string',
     introduce: '本篇博客会展示如何将字符串编译为Vue组件，我找遍了Google, Stackoverflow, GitHub, NPM, 可以说我是第一个发现这种解决方案的。'
+  },
+  {
+    title: '[Original Solution, No One Else on the Internet] Let a String Compile to a Vue Component',
+    time: '2024.12.4',
+    file: 'compile-vue-string-en.md',
+    pid: 'compile-vue-string-en',
+    introduce: 'This blog will show how to compile a string into a Vue component, and I searched Google, Stackoverflow, GitHub, NPM, and can say I am the first one to come up with this solution.'
   }
 ];
 
