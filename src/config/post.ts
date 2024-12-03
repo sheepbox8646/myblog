@@ -12,6 +12,13 @@ export const forwardWorld = [
     file: "the-forward-world/content/chapter2.md",
     pid: "tfw-c2",
     hide: true,
+  },
+  {
+    title: "Chapter3 笼中鸟，何时飞",
+    time: "2024.12.1",
+    file: "the-forward-world/content/chapter3.md",
+    pid: "tfw-c3",
+    hide: true,
   }
 ]
 
@@ -66,7 +73,14 @@ const post = [
     pid: 'the-forward-world',
     introduce: '这是我的正在更新的政治类科幻小说，从一个个普通人的视角去做政治讽刺，欢迎阅读'
   },
-  ...forwardWorld
+  ...forwardWorld,
+  {
+    title: '[自创解决方案，全网独一份]将字符串编译为Vue组件',
+    time: '2024.12.4',
+    file: 'compile-vue-string.md',
+    pid: 'compile-vue-string',
+    introduce: '本篇博客会展示如何将字符串编译为Vue组件，我找遍了Google, Stackoverflow, GitHub, NPM, 可以说我是第一个发现这种解决方案的。'
+  }
 ];
 
 export default post;
