@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-content">
-      <p class="copyright">©2023 AcboxSky</p>
+      <p class="copyright">©2023-Present AcboxSky</p>
       <p class="made-with">Made with ❤️ by AcboxSky</p>
     </div>
   </footer>
