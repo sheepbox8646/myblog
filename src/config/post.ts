@@ -25,7 +25,7 @@ export const forwardWorld = [
 const post = [
   {
     title: "关于我",
-    time: "2023.10.4(publish),2024.11.26(Edit) ",
+    time: "2023.10.4(publish),2025.3.16(Edit) ",
     file: "self-introduce.md",
     hide: true,
     pid: "self-introduce",
@@ -33,7 +33,7 @@ const post = [
   },
   {
     title: "链接",
-    time: "2023.10.4(publish),2024.1.18(Edit)",
+    time: "2023.10.4(publish),2025.3.16(Edit)",
     file: "link.md",
     hide: true,
     pid: "link",
@@ -71,22 +71,24 @@ const post = [
     time: '2024.11.26',
     file: 'the-forward-world/summarize.md',
     pid: 'the-forward-world',
-    introduce: '这是我的正在更新的政治类科幻小说，从一个个普通人的视角去做政治讽刺，欢迎阅读'
+    introduce: '这是我的正在更新的政治类科幻小说，从一个个普通人的视角去做政治讽刺，欢迎阅读',
+    hide: true,
   },
   ...forwardWorld,
   {
-    title: '[自创解决方案，全网独一份]将字符串编译为Vue组件',
+    title: '将字符串编译为Vue组件',
     time: '2024.12.4',
     file: 'compile-vue-string.md',
     pid: 'compile-vue-string',
-    introduce: '本篇博客会展示如何将字符串编译为Vue组件，我找遍了Google, Stackoverflow, GitHub, NPM, 可以说我是第一个发现这种解决方案的。'
+    introduce: '本篇博客会展示如何将字符串编译为Vue组件。'
   },
   {
     title: '[Original Solution, No One Else on the Internet] Let a String Compile to a Vue Component',
     time: '2024.12.4',
     file: 'compile-vue-string-en.md',
     pid: 'compile-vue-string-en',
-    introduce: 'This blog will show how to compile a string into a Vue component, and I searched Google, Stackoverflow, GitHub, NPM, and can say I am the first one to come up with this solution.'
+    introduce: 'This blog will show how to compile a string into a Vue component, and I searched Google, Stackoverflow, GitHub, NPM, and can say I am the first one to come up with this solution.',
+    hide: true,
   }
 ];
 

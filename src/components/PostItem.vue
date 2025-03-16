@@ -34,11 +34,29 @@ introduce = ele.innerText;
 
 <style scoped>
 .item {
+  display: block;
   text-decoration: none;
-  color: black;
+  color: #2c3e50;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
 .item:hover {
-  color: skyblue;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #3498db;
+}
+
+.item span {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+.fa-calendar {
+  color: #95a5a6;
 }
 </style>

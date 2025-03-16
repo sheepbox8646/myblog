@@ -1,6 +1,6 @@
 const config = {
-  title: "I'm AcboxSky",
-  signs: ["💻OSS Developer", "🎸Music Lover", "🌈Dreamer", "🌍Desiring for Freedom"],
+  title: "你好呀QwQ, 我是Acbox",
+  signs: ["📦 你也可以叫我小箱子~", "💻 开源开发者", "⚙️ BijonAI的Co-founder和CTO", "🥁玩架子鼓的", "🥰喜欢和大家贴贴", "🏳️‍⚧️🍥是一只MtX哦~"],
   saying: "To be my self without judgement",
   guider: [
     {
@@ -29,12 +29,8 @@ const config = {
     },
     {
       text: "<i class='fa fa-envelope'></i>",
-      link: "mailto:acbox0328@gmail.com"
+      link: "mailto:me@acbox.lol"
     },
-    {
-      text: "<i class='fa fa-wechat'></i>",
-      link: "https://mp.weixin.qq.com/s/88Xoce3LQ2IiRDvOZ3GKFw?token=1031354371&lang=zh_CN)"
-    }
   ]
 };
 

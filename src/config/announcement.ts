@@ -13,6 +13,11 @@ const announcement = [
     time: "2024.11.26",
     file: "announce2024-11-26.md",
     aid: "announce2024-11-26"
+  },
+  {
+    time: "2025.3.16",
+    file: "announce2025-3-16.md",
+    aid: "announce2025-3-16"
   }
 ];
 

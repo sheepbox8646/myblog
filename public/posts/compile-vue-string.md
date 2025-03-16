@@ -94,5 +94,3 @@ console.log(component)
   <component :is="component" />
 </template>
 ```
-
-我可以说我是全网第一个搞出这种解决方案的哈哈哈！！！！！！！！

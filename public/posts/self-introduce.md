@@ -1,34 +1,26 @@
 # 个人介绍
 
-大家好！我是 Acbox Liu，很高兴能在这里和大家相识。
+大家好！我是Acbox(小箱子)，很高兴能在这里和大家相识。
 
 ## 关于我
 
-- 🎓 教育背景：高一学生
-- 🏠 来自：安徽
-- 👶 年龄：15岁
-- 💼 身份：前端开发者，开源贡献者
+- 🧑‍🎓 辍学高中生，目前正在备考A-level和IELTS，准备申请在🇭🇰的本科
+- 💻 开源开发者，主要是前端，也在做AI相关的东西
+- ⚙️ AI创业者，[BijonAI](https://bijon.ai)的Co-Founder和CTO
+- 🦆 BugDuck的创始人: [bugduck.org](https://bugduck.org)，不过这个团队已经没动静很久了
+- 🍥 MtX🏳️‍⚧️，可以找我贴贴哦
 
-## 主要成就
+## 我做过哪些东西
 
-- 🚀 Newcar 作者
-- 🎨 VueMotion 作者
-- 🦆 BugDuck 开源团队创始人
-- 🌟 Dromara 社区委员会成员
-- 🤖 PagepeekAI 团队成员
-- 🌐 OpenTeens 核心成员
+- 🚀 Newcar (700+ stars) [Link](https://github.com/Bug-Duck/newcar)
+- 🎨 VueMotion (100+ stars) [Link](https://github.com/Bug-Duck/vuemotion)
 
-## 当前工作与组织
+## 最近在做什么
 
-- 🏢 PagePeek AI - 远程工作（基于 VueMotion 的微调模型，用于生成数学可交互动画）
-- 🦆 BugDuck Team (https://bugduck.org)
-- 🌟 Dromara (https://dromara.org)
-- 👥 OpenTeens
-
-## 兴趣爱好
-
-- 💻 编程
-- 🎵 音乐
+- BijonAI, 一个AI创业公司 [Link](https://bijon.ai) (By the way, 我们的产品将会在五月下旬开始内测，欢迎感兴趣的可以联系我) 
+- SciuxJs, 开源STEM教育组件生态，是BijonAI的开源社区 [Link](https://sciux.dev)
+- EchoAI, 自带一块可交互黑板的AI老师，是BijonAI的一个AI产品
+- SayoAI, AI可交互内容生成，基于SciuxJs的组件生态，是BijonAI的一个AI产品
 
 ## 社交媒体与联系方式
 
@@ -36,8 +28,8 @@
 - 🐦 X (Twitter): @AcboxLiu
 - 🟦 V2ex: @acbox
 - 🐧 LinuxDo: @AcboxSky
-- 📺 哔哩哔哩: @Acbox
-- 🌐 个人网站: https://acbox.lol
+- 📺 哔哩哔哩: @小箱子Acbox
+- 📮 邮箱: me@acbox.lol
 - 💬 QQ: 850625057
 
 ## 未来计划
